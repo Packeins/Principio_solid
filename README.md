@@ -8,8 +8,8 @@
     EmailService → envía correos de bienvenida
     
     Problemas que resolvió:
-    La clase original tenía múltiples responsabilidades, dificultando mantenimiento y pruebas.
-    Ahora cada clase tiene una sola responsabilidad, aumentando la modularidad y facilitando la extensión y prueba de unidades.
+    LLa clase original tenía múltiples responsabilidades, dificultando mantenimiento y pruebas.
+    Ahora cada clase tiene una sola responsabilidad, aumentando la modularidad y facilitando la extensión y pruebas unitarias.
     
     Archivos involucrados:
     principio1SRP/
@@ -92,24 +92,8 @@
 
 ##Reflexión Final del Grupo
 
-    En nuestro proyecto, la aplicación de los principios SOLID nos permitió observar de manera práctica cómo un buen diseño de software mejora la mantenibilidad y escalabilidad del código. Los principios que más impacto tuvieron fueron SRP y OCP, ya que nos ayudaron a separar responsabilidades y extender funcionalidades sin modificar el código existente.
-
-Aprendizajes principales:
-
+    En nuestro proyecto, la aplicación de los principios SOLID nos permitió observar cómo un buen diseño de software mejora la mantenibilidad y escalabilidad del código.
+    Los principios que más impacto tuvieron fueron SRP y OCP, ya que ayudaron a separar responsabilidades y extender funcionalidades sin modificar el código existente.
     Comprendimos la importancia de diseñar clases y métodos con responsabilidades claras y limitadas.
-    La segregación de interfaces y la inversión de dependencias facilitan la prueba de unidades y la reutilización de código.
+    La segregación de interfaces y la inversión de dependencias facilitan pruebas unitarias y reutilización de código.
     Aplicar SOLID desde etapas tempranas del desarrollo reduce la aparición de errores y refactorizaciones costosas a futuro.
-
-Beneficios de las herramientas automáticas:
-    
-    Plugins como PMD y Reformat Plugin nos ayudaron a identificar problemas de estilo, consistencia y posibles errores lógicos rápidamente.
-    La combinación de análisis manual y automático permitió corroborar hallazgos y descubrir detalles que podrían pasar desapercibidos.
-
-Desafíos encontrados:
-    
-    Integrar algunas herramientas, como OWASP Dependency-Check, presentó dificultades debido a configuraciones de API y restricciones de red.
-    Aprender a interpretar los reportes automáticos y relacionarlos con nuestro código fue un reto, pero fortaleció nuestra comprensión del análisis estático.
-
-Conclusión:
-
-    El trabajo conjunto de aplicar principios SOLID y utilizar herramientas de análisis automatizado nos permitió producir un código más limpio, estructurado y confiable. Esta experiencia refuerza la importancia de la disciplina de desarrollo y la documentación en proyectos profesionales, fomentando buenas prácticas que reducen riesgos y facilitan la evolución del software.
